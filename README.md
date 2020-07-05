@@ -46,7 +46,7 @@
 
 ## React Components
 
-  <a name="react--components"></a>
+  <a name="react--components"></a><a name="Typing and Default Value"></a>
   - [Typing and Default Value](#react--components)
   
   **PropTypes**: Use PropTypes to declare the type of variables and to set default value.
