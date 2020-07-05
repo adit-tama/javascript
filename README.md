@@ -47,15 +47,8 @@
 ## React Components
 
   <a name="react--components"></a>
-  - [Typing](#react--components) **PropTypes**: Use PropTypes to declare the type of variables and to set default value.
-
-    - `string`
-    - `number`
-    - `boolean`
-    - `null`
-    - `undefined`
-    - `symbol`
-    - `bigint`
+  - [Typing and Default Value](#react--components)
+  **PropTypes**: Use PropTypes to declare the type of variables and to set default value.
 
     ```javascript
     const foo = 1;
@@ -65,9 +58,6 @@
 
     console.log(foo, bar); // => 1, 9
     ```
-
-    - Symbols and BigInts cannot be faithfully polyfilled, so they should not be used when targeting browsers/environments that don’t support them natively.
-
 
 ## Types
 
