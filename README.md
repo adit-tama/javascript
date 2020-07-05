@@ -3,7 +3,7 @@
 *Mostly taken from AirBnb javascript guide*
 
 ## Table of Contents
-  1. [React Component](#react)
+  1. [React Component](#react--components)
   1. [Types](#types)
   1. [References](#references)
   1. [Objects](#objects)
@@ -48,6 +48,7 @@
 
   <a name="react--components"></a>
   - [Typing and Default Value](#react--components)
+  
   **PropTypes**: Use PropTypes to declare the type of variables and to set default value.
 
     ```javascript
