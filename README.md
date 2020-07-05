@@ -47,7 +47,7 @@
 ## React Components
 
   <a name="react--components"></a>
-  - [1.1](#react--components) **Primitives**: When you access a primitive type you work directly on its value.
+  - [Typing](#react--components) **PropTypes**: Use PropTypes to declare the type of variables and to set default value.
 
     - `string`
     - `number`
