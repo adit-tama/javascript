@@ -3,7 +3,7 @@
 *Mostly taken from AirBnb javascript guide*
 
 ## Table of Contents
-  1. [React Component](#types)
+  1. [React Component](#react)
   1. [Types](#types)
   1. [References](#references)
   1. [Objects](#objects)
@@ -43,6 +43,31 @@
   1. [Contributors](#contributors)
   1. [License](#license)
   1. [Amendments](#amendments)
+
+## React Components
+
+  <a name="react--components"></a>
+  - [1.1](#react--components) **Primitives**: When you access a primitive type you work directly on its value.
+
+    - `string`
+    - `number`
+    - `boolean`
+    - `null`
+    - `undefined`
+    - `symbol`
+    - `bigint`
+
+    ```javascript
+    const foo = 1;
+    let bar = foo;
+
+    bar = 9;
+
+    console.log(foo, bar); // => 1, 9
+    ```
+
+    - Symbols and BigInts cannot be faithfully polyfilled, so they should not be used when targeting browsers/environments that don’t support them natively.
+
 
 ## Types
 
